@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventario de Ropa</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">👗</span>
+        <div>
+          <h1>Mi Tienda</h1>
+          <p class="tagline">Inventario del día</p>
+        </div>
+      </div>
+      <div class="header-date" id="fechaHoy"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="search-bar">
+      <span class="search-icon">🔍</span>
+      <input
+        type="text"
+        id="buscador"
+        placeholder="Buscar por nombre, talla, categoría..."
+        autocomplete="off"
+      />
+      <button id="btnLimpiar" class="btn-clear" title="Limpiar">✕</button>
+    </div>
+
+    <div class="filtros" id="filtros"></div>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="productos" id="listaProductos"></div>
+
+    <div class="vacio oculto" id="sinResultados">
+      <span>🧺</span>
+      <p>No se encontraron productos</p>
+    </div>
+  </main>
+
+  <!-- Modal detalle -->
+  <div class="modal-overlay oculto" id="modalOverlay">
+    <div class="modal" id="modalDetalle">
+      <button class="modal-cerrar" id="modalCerrar">✕</button>
+      <div id="modalContenido"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

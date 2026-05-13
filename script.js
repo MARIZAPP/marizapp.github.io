@@ -19,7 +19,7 @@ const productos = [
     id: 1,
     nombre: "Chaleco formal invierno",
     categoria: "Chalecos",
-    precio: 405,
+    precio: 40,
     tallas: ["XS", "S", "M", "L"],
     descripcion: "Chaleco formal para invierno con bordado.",
     imagen: "https://raw.githubusercontent.com/MARIZAPP/marizapp.github.io/main/CHALECO-40-BS.jpg",

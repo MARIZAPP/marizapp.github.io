@@ -72,7 +72,7 @@ const productos = [
     precio: 40,
     tallas: ["S", "M", "L"],
     descripcion: "Chalecos formales para invierno.",
-    imagen: "https://raw.githubusercontent.com/<owner>/<repo>/<branch>/<path>",
+    imagen: "https://raw.githubusercontent.com/MARIZAPP/marizapp.github.io/main/CHALECO%20NEGRO%2040%20BS.jpg",
     nuevo: false
   },
   {
